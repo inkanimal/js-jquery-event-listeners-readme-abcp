@@ -4,6 +4,7 @@ function getIt(){
   });
 }//define functions here
 function frameIt(){
+var img = $("img")
   $("img").on("load", function(){
     img.addClass("tasty!")
   });
